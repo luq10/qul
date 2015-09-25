@@ -1,0 +1,25 @@
+{
+  "name": "qul",
+  "version": "0.0.1",
+  "authors": [
+    "Łukasz Sałajczyk <l.salajczyk@gmail.com>"
+  ],
+  "description": "Package of helper angular modules",
+  "main": "./src/app.js",
+  "keywords": [
+    "qul"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qul-eventemitter": "*",
+    "qul-env": "*"
+  }
+}
